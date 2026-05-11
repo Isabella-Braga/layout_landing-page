@@ -1,3 +1,45 @@
-.header{
-  margin: 0;
+.header {
+  height: 100vh;
+
+  background-image: url('/src/images/background-museum.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-top: 25px;
+}
+
+.header__logo {
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+
+.header__actions {
+  display: flex;
+  gap: 24px;
+}
+
+.header__icon-image {
+  width: 24px;
+  height: 24px;
+}
+
+.header__title {
+  margin-top: 100px;
+
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+
+  color: white;
+
+  text-align: center;
 }
