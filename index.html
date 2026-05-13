@@ -17,7 +17,7 @@
     ></script>
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="home">
       <div class="container">
         <div class="header__top">
           <a
@@ -88,11 +88,11 @@
         </div>
 
         <nav class="menu__nav">
-          <a href="#" class="menu__link">HOME</a>
-          <a href="#" class="menu__link">ABOUT US</a>
-          <a href="#" class="menu__link">GALLERY</a>
-          <a href="#" class="menu__link">EXPLORE ONLINE</a>
-          <a href="#" class="menu__link">CONTACTS</a>
+          <a href="#home" class="menu__link">HOME</a>
+          <a href="#about-us" class="menu__link">ABOUT US</a>
+          <a href="#home" class="menu__link">GALLERY</a>
+          <a href="#home" class="menu__link">EXPLORE ONLINE</a>
+          <a href="#home" class="menu__link">CONTACTS</a>
         </nav>
 
         <div class="menu__contacts">
@@ -117,8 +117,109 @@
     </aside>
 
     <main class="main">
-      <section class="hours">
-        <div class="container"></div>
+      <section
+      class="hours"
+      id="about-us"
+      >
+        <div class="container">
+
+          <p class="hours__subtitle">
+            Plan your visit
+          </p>
+
+          <h2 class="hours__title">
+            Museum Hours
+          </h2>
+
+          <div class="hours__museum">
+
+            <h3 class="hours__museum-title">
+              The Met Fifth Avenue
+            </h3>
+
+            <div class="hours__schedule">
+
+              <p class="hours__time">
+                10 am - 5 pm
+              </p>
+
+              <p class="hours__days">
+                Sun, Mon, Tue, Thu
+              </p>
+            </div>
+
+            <div class="hours__schedule">
+
+              <p class="hours__time">
+                10 am - 9 pm
+              </p>
+
+              <p class="hours__days">
+                Fri, Sat
+              </p>
+            </div>
+
+            <div class="hours__schedule">
+
+              <p class="hours__time">
+                Closed
+              </p>
+
+              <p class="hours__days">
+                Wed
+              </p>
+            </div>
+
+            <p class="hours__closed-title">
+              Closed on
+            </p>
+
+            <p class="hours__closed-text">
+              Thanksgiving Day, Dec 25, Jan 1,
+              and the first Monday in May.
+            </p>
+
+          </div>
+
+          <div class="hours__museum">
+
+            <h3 class="hours__museum-title">
+              The Met Cloisters
+            </h3>
+
+            <div class="hours__schedule">
+
+              <p class="hours__time">
+                10 am - 4.30 pm
+              </p>
+
+              <p class="hours__days">
+                Thu - Tue
+              </p>
+            </div>
+
+            <div class="hours__schedule">
+
+              <p class="hours__time">
+                Closed
+              </p>
+
+              <p class="hours__days">
+                Wed
+              </p>
+            </div>
+
+            <p class="hours__closed-title">
+              Closed on
+            </p>
+
+            <p class="hours__closed-text">
+              Thanksgiving Day, Dec 25, Jan 1
+            </p>
+
+          </div>
+
+        </div>
       </section>
 
       <section class="now-on-view">

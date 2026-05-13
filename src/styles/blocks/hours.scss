@@ -1,3 +1,84 @@
-.hours{
+.hours {
+  padding-top: 100px;
+}
+
+.hours__subtitle {
   margin: 0;
+
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 140%;
+
+  color: #d12d35;
+}
+
+.hours__title {
+  margin-top: 8px;
+  margin-bottom: 0;
+
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+
+  letter-spacing: -1.5px;
+}
+
+.hours__museum {
+  margin-top: 32px;
+}
+
+.hours__museum-title {
+  margin: 0;
+
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.hours__schedule {
+  display: grid;
+
+  grid-template-columns: 140px 1fr;
+
+  column-gap: 24px;
+
+  margin-top: 16px;
+}
+
+.hours__time {
+  margin: 0;
+
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 27px;
+
+  white-space: nowrap;
+}
+
+.hours__days {
+  margin: 0;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+
+  white-space: nowrap;
+}
+
+.hours__closed-title {
+  margin-top: 16px;
+  margin-bottom: 0;
+
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.hours__closed-text {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
 }
