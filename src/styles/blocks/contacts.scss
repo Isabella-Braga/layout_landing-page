@@ -1,3 +1,55 @@
-.contacts{
+.contacts {
+  padding-top: 100px;
+}
+
+.contacts__title {
   margin: 0;
+
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+
+  letter-spacing: -1.5px;
+
+  text-align: center;
+}
+
+.contacts__groups {
+  margin-top: 48px;
+}
+
+.contacts__group {
+  margin-top: 48px;
+}
+
+.contacts__museum {
+  margin: 0;
+
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.contacts__label {
+  margin-top: 16px;
+  margin-bottom: 0;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.contacts__info {
+  display: block;
+
+  margin-top: 0;
+  margin-bottom: 0;
+
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 140%;
+
+  color: #161616;
+
+  text-decoration: none;
 }
