@@ -6,7 +6,11 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
-    <title>Landing Page</title>
+    <link
+      rel="icon"
+      href="src/images/head/favicon.png"
+    >
+    <title>The MET</title>
     <link
       rel="stylesheet"
       href="src/styles/main.scss"
@@ -16,12 +20,13 @@
       defer
     ></script>
   </head>
-  <body>
+
+  <body class="page">
     <header class="header" id="home">
       <div class="container">
         <div class="header__top">
           <a
-            href="#"
+            href="#home"
             class="header__logo"
           >
             THE <br>
@@ -61,14 +66,13 @@
     </header>
 
     <aside
-      class="menu"
+      class="menu page__menu"
       id="menu"
     >
       <div class="container">
         <div class="menu__top">
-
           <a
-            href="#"
+            href="#home"
             class="menu__logo"
           >
             THE <br>
@@ -76,11 +80,11 @@
           </a>
 
           <a
-            href="#"
+            href="#home"
             class="menu__close"
           >
             <img
-            src="SRC/images/menu/Icon-Close.svg"
+            src="src/images/menu/Icon-Close.svg"
             alt="Close menu"
             class="menu__close-icon"
             >
@@ -122,7 +126,6 @@
       id="about-us"
       >
         <div class="container">
-
           <p class="hours__subtitle">
             Plan your visit
           </p>
@@ -132,13 +135,11 @@
           </h2>
 
           <div class="hours__museum">
-
             <h3 class="hours__museum-title">
               The Met Fifth Avenue
             </h3>
 
             <div class="hours__schedule">
-
               <p class="hours__time">
                 10 am - 5 pm
               </p>
@@ -149,7 +150,6 @@
             </div>
 
             <div class="hours__schedule">
-
               <p class="hours__time">
                 10 am - 9 pm
               </p>
@@ -160,7 +160,6 @@
             </div>
 
             <div class="hours__schedule">
-
               <p class="hours__time">
                 Closed
               </p>
@@ -178,17 +177,14 @@
               Thanksgiving Day, Dec 25, Jan 1,
               and the first Monday in May.
             </p>
-
           </div>
 
           <div class="hours__museum">
-
             <h3 class="hours__museum-title">
               The Met Cloisters
             </h3>
 
             <div class="hours__schedule">
-
               <p class="hours__time">
                 10 am - 4.30 pm
               </p>
@@ -199,7 +195,6 @@
             </div>
 
             <div class="hours__schedule">
-
               <p class="hours__time">
                 Closed
               </p>
@@ -216,9 +211,7 @@
             <p class="hours__closed-text">
               Thanksgiving Day, Dec 25, Jan 1
             </p>
-
           </div>
-
         </div>
       </section>
 
@@ -389,7 +382,7 @@
                 your own small group, or
                 request a live virtual tour
                 led by a Museum guide.
-               </p>
+              </p>
             </article>
           </div>
         </div>
@@ -400,15 +393,12 @@
       id="contacts"
       >
         <div class="container">
-
           <h2 class="contacts__title">
             Contact us
           </h2>
 
           <div class="contacts__groups">
-
             <div class="contacts__group">
-
               <h3 class="contacts__museum">
                 The Met Fifth Avenue
               </h3>
@@ -428,16 +418,18 @@
                 Address
               </p>
 
-              <p class="contacts__info">
+              <a
+                href="https://maps.google.com/?q=1000+Fifth+Avenue+New+York+NY+10028"
+                target="_blank"
+                class="contacts__info"
+              >
                 1000 Fifth Avenue
                 <br>
                 New York, NY 10028
-              </p>
-
+              </a>
             </div>
 
             <div class="contacts__group">
-
               <h3 class="contacts__museum">
                 The Met Cloisters
               </h3>
@@ -457,18 +449,50 @@
                 Address
               </p>
 
-              <p class="contacts__info">
+              <a
+              href="https://maps.google.com/?q=99+Margaret+Corbin+Drive+New+York+NY+10040"
+              target="_blank"
+              class="contacts__info"
+              >
                 99 Margaret Corbin Drive
                 <br>
                 Fort Tryon Park
                 <br>
                 New York, NY 10040
-              </p>
-
+              </a>
             </div>
-
           </div>
 
+          <form
+          class="contacts__form"
+          onsubmit="this.reset(); return false;"
+          >
+            <input
+              type="text"
+              placeholder="Name"
+              class="contacts__input"
+              required
+            >
+
+            <input
+              type="email"
+              placeholder="Email"
+              class="contacts__input"
+              required
+            >
+
+            <textarea
+              placeholder="Message"
+              class="contacts__textarea"
+            ></textarea>
+
+            <button
+              type="submit"
+              class="contacts__button"
+            >
+              Send
+            </button>
+          </form>
         </div>
       </section>
     </main>

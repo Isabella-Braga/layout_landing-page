@@ -2,6 +2,7 @@
   height: 100vh;
 
   background-image: url('/src/images/header/background-museum.jpg');
+
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -16,15 +17,18 @@
 }
 
 .header__logo {
-  font-size: 32px;
-  font-weight: 700;
-  color: white;
+  font-size: $title-size;
+  font-weight: $font-weight-bold;
+
+  color: $color-white;
+
   text-decoration: none;
 }
 
 .header__actions {
   display: flex;
-  gap: 24px;
+
+  gap: $gap-medium;
 }
 
 .header__icon-image {
@@ -33,13 +37,13 @@
 }
 
 .header__title {
-  margin-top: 100px;
+  margin-top: $section-padding-top;
 
   font-size: 40px;
-  font-weight: 700;
+  font-weight: $font-weight-bold;
   line-height: 40px;
 
-  color: white;
+  color: $color-white;
 
   text-align: center;
 }

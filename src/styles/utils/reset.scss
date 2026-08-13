@@ -8,4 +8,16 @@ html {
 
 body {
   margin: 0;
+
+  font-family: $font-main;
+
+  text-transform: uppercase;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+
+  text-transform: inherit;
 }

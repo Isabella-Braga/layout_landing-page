@@ -1,26 +1,26 @@
 .hours {
-  padding-top: 100px;
+  padding-top: $section-padding-top;
 }
 
 .hours__subtitle {
   margin: 0;
 
   font-size: 12px;
-  font-weight: 700;
+  font-weight: $font-weight-bold;
   line-height: 140%;
 
-  color: #d12d35;
+  color: $color-main;
 }
 
 .hours__title {
   margin-top: 8px;
   margin-bottom: 0;
 
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 32px;
+  font-size: $title-size;
+  font-weight: $font-weight-bold;
+  line-height: $title-line-height;
 
-  letter-spacing: -1.5px;
+  letter-spacing: $title-letter-spacing;
 }
 
 .hours__museum {
@@ -31,7 +31,7 @@
   margin: 0;
 
   font-size: 24px;
-  font-weight: 700;
+  font-weight: $font-weight-bold;
   line-height: 30px;
 }
 
@@ -40,7 +40,7 @@
 
   grid-template-columns: 140px 1fr;
 
-  column-gap: 24px;
+  column-gap: $gap-medium;
 
   margin-top: 16px;
 }
@@ -48,9 +48,9 @@
 .hours__time {
   margin: 0;
 
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 27px;
+  font-size: $text-size;
+  font-weight: $font-weight-bold;
+  line-height: $text-line-height;
 
   white-space: nowrap;
 }
@@ -58,9 +58,9 @@
 .hours__days {
   margin: 0;
 
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 27px;
+  font-size: $text-size;
+  font-weight: $font-weight-normal;
+  line-height: $text-line-height;
 
   white-space: nowrap;
 }
@@ -69,16 +69,16 @@
   margin-top: 16px;
   margin-bottom: 0;
 
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 27px;
+  font-size: $text-size;
+  font-weight: $font-weight-bold;
+  line-height: $text-line-height;
 }
 
 .hours__closed-text {
   margin-top: 0;
   margin-bottom: 0;
 
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 27px;
+  font-size: $text-size;
+  font-weight: $font-weight-normal;
+  line-height: $text-line-height;
 }

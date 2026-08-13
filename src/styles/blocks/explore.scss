@@ -1,15 +1,15 @@
 .explore {
-  padding-top: 100px;
+  padding-top: $section-padding-top;
 }
 
 .explore__title {
   margin: 0;
 
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 32px;
+  font-size: $title-size;
+  font-weight: $font-weight-bold;
+  line-height: $title-line-height;
 
-  letter-spacing: -1.5px;
+  letter-spacing: $title-letter-spacing;
 
   text-align: center;
 }
@@ -19,7 +19,7 @@
 }
 
 .explore__card {
-  margin-top: 48px;
+  margin-top: $gap-large;
 }
 
 .explore__image {
@@ -30,25 +30,29 @@
 }
 
 .explore__card-title {
-  margin-top: 24px;
+  margin-top: $gap-medium;
   margin-bottom: 0;
 
   font-size: 24px;
-  font-weight: 700;
+  font-weight: $font-weight-bold;
   line-height: 140%;
 
   text-align: center;
 
-  color: #d12d35;
+  color: $color-main;
 }
 
 .explore__text {
   margin-top: 4px;
   margin-bottom: 0;
 
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 27px;
+  font-family: $font-secondary;
+
+  font-size: $text-size;
+  font-weight: $font-weight-normal;
+  line-height: $text-line-height;
 
   text-align: center;
+
+  text-transform: none;
 }

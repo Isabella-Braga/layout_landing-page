@@ -1,7 +1,7 @@
 .menu {
   height: 100vh;
 
-  background-color: #d12d35;
+  background-color: $color-main;
 
   position: fixed;
   top: 0;
@@ -33,12 +33,12 @@
   font-weight: 700;
   line-height: 20px;
 
-  color: white;
+  color: $color-white;
   text-decoration: none;
 }
 
 .menu__close {
-  color: white;
+  color: $color-white;
   text-decoration: none;
 }
 
@@ -59,9 +59,9 @@
 }
 
 .menu__link {
-  color: white;
+  color: $color-white;
 
-  font-size: 16px;
+  font-size: $text-size;
   font-weight: 700;
 
   text-decoration: none;
@@ -79,9 +79,9 @@
 }
 
 .menu__contacts a {
-  color: white;
+  color: $color-white;
 
-  font-size: 14px;
+  font-size: $small-text-size;
   font-weight: 700;
   line-height: 20px;
 
@@ -93,14 +93,14 @@
 
   margin-top: 16px;
 
-  color: white;
+  color: $color-white;
 
   font-size: 12px;
   font-weight: 700;
 
   text-decoration: none;
 
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid $color-white;
 
   padding-bottom: 8px;
 }
