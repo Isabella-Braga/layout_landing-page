@@ -1,4 +1,8 @@
 .footer {
+  position: sticky;
+  bottom: 0;
+  z-index: -1;
+
   margin-top: $section-padding-top;
 
   height: 180px;

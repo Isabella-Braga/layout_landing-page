@@ -38,7 +38,7 @@
 .hours__schedule {
   display: grid;
 
-  grid-template-columns: 140px 1fr;
+  grid-template-columns: 40% 1fr;
 
   column-gap: $gap-medium;
 
@@ -51,8 +51,6 @@
   font-size: $text-size;
   font-weight: $font-weight-bold;
   line-height: $text-line-height;
-
-  white-space: nowrap;
 }
 
 .hours__days {
@@ -61,8 +59,6 @@
   font-size: $text-size;
   font-weight: $font-weight-normal;
   line-height: $text-line-height;
-
-  white-space: nowrap;
 }
 
 .hours__closed-title {

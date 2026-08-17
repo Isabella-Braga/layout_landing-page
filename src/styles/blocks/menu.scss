@@ -13,6 +13,8 @@
 
   opacity: 0;
   pointer-events: none;
+
+  overflow: auto;
 }
 
 .menu:target {
@@ -26,6 +28,11 @@
   align-items: center;
 
   padding-top: 25px;
+
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: $color-main;
 }
 
 .menu__logo {

@@ -27,6 +27,8 @@
   height: 277px;
 
   object-fit: cover;
+
+  transition: transform $transition-duration;
 }
 
 .explore__card-title {
@@ -55,4 +57,13 @@
   text-align: center;
 
   text-transform: none;
+}
+
+.explore__link {
+  display: block;
+  overflow: hidden;
+}
+
+.explore__image:hover {
+  transform: scale(1.05);
 }

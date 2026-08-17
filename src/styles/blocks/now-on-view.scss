@@ -38,6 +38,8 @@
   height: 130px;
 
   object-fit: cover;
+
+  transition: transform $transition-duration;
 }
 
 .exhibition__image--wide {
@@ -104,4 +106,12 @@
 
 .now-on-view__button:active {
   background-color: $color-main-active;
+}
+
+.exhibition__link {
+  display: block;
+}
+
+.exhibition__image:hover {
+  transform: scale(1.05);
 }

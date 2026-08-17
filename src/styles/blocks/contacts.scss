@@ -54,6 +54,10 @@
   text-decoration: none;
 }
 
+.contacts__info:hover {
+  color: $color-main;
+}
+
 .contacts__form {
   display: flex;
   flex-direction: column;
@@ -131,4 +135,20 @@
 
 .contacts__button:active {
   background-color: $color-main-active;
+}
+
+@media (min-width: 768px) {
+  .contacts__groups {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: $gap-large;
+  }
+
+  .contacts__group {
+    margin-top: 0;
+  }
+
+  .contacts__form {
+    max-width: 50%;
+  }
 }
