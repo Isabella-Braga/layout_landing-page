@@ -67,3 +67,11 @@
 .explore__image:hover {
   transform: scale(1.05);
 }
+
+@media (min-width: 1260px) {
+  .explore__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: $gap-large;
+  }
+}

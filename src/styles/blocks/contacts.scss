@@ -137,10 +137,17 @@
   background-color: $color-main-active;
 }
 
-@media (min-width: 768px) {
-  .contacts__groups {
+@media (min-width: 744px) {
+  .contacts .container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
+    gap: $gap-large;
+  }
+
+  .contacts__title {
+    grid-column: 1 / -1;
+  }
+  .contacts__groups {
     gap: $gap-large;
   }
 
@@ -149,6 +156,14 @@
   }
 
   .contacts__form {
-    max-width: 50%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1260px) {
+  .contacts__groups {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: $gap-large;
   }
 }

@@ -31,6 +31,27 @@
   gap: $gap-medium;
 }
 
+.header__icon {
+  position: relative;
+}
+
+.header__icon[href^="tel"]::after {
+  content: "+1 212-535-7710";
+  position: absolute;
+  right: 0;
+  top: 30px;
+  white-space: nowrap;
+  color: $color-white;
+  font-size: $small-text-size;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity $transition-duration;
+}
+
+.header__icon[href^="tel"]:hover::after {
+  opacity: 1;
+}
+
 .header__icon-image {
   width: 24px;
   height: 24px;
